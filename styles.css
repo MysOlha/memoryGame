@@ -5,3 +5,13 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.container {
+  display: block;
+  /* position: relative; */
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
